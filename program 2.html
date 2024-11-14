@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Frames Example</title>
+</head>
+<body>
+    <!-- Navigation Frame -->
+    <frameset cols="25%,75%">
+        <frame src="file:///C:/Users/student/Documents/MCA35/mca-new" name="navFrame">
+        <frameset rows="50%,50%">
+            <!-- Mixed Frame -->
+            <frame src="image.html" name="imageFrame">
+            <frameset cols="50%,50%">
+                <frame src="video.html" name="videoFrame">
+                <frame src="timetable.html" name="timetableFrame">
+            </frameset>
+        </frameset>
+    </frameset>
+
+    <!-- Floating Frame -->
+    <iframe src="floating.html" style="width:100%; height:300px; border:none;">
+        Your browser does not support iframes.
+    </iframe>
+</body>
+</html>
